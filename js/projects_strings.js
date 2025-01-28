@@ -41,13 +41,14 @@ var aboutDesignProjects = "Designed many posters, videos and web pages for my pr
 
 var aboutLinuxProjects = "Have a good understanding of the Linux OS (Ubuntu Specifically), and been using it for 5 years.";
 
-window.onload = function(){
+window.addEventListener("DOMContentLoaded", function(){
 
-	document.getElementById('aboutHeynote').innerHTML = aboutHeynote;
-	document.getElementById('aboutElewhat').innerHTML = aboutElewhat;
-        document.getElementById('aboutAndroidProjects').innerHTML = aboutAndroidProjects;
-        document.getElementById('aboutPythonProjects').innerHTML = aboutPythonProjects;
-        document.getElementById('aboutDesignProjects').innerHTML = aboutDesignProjects
-        document.getElementById('aboutLinuxProjects').innerHTML = aboutLinuxProjects
+                document.getElementById('aboutHeynote').innerHTML = aboutHeynote;
+                document.getElementById('aboutElewhat').innerHTML = aboutElewhat;
+                document.getElementById('aboutAndroidProjects').innerHTML = aboutAndroidProjects;
+                document.getElementById('aboutPythonProjects').innerHTML = aboutPythonProjects;
+                document.getElementById('aboutDesignProjects').innerHTML = aboutDesignProjects
+                document.getElementById('aboutLinuxProjects').innerHTML = aboutLinuxProjects
 
-}
+        }
+);
