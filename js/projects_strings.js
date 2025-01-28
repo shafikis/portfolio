@@ -41,7 +41,7 @@ var aboutDesignProjects = "Designed many posters, videos and web pages for my pr
 
 var aboutLinuxProjects = "Have a good understanding of the Linux OS (Ubuntu Specifically), and been using it for 5 years.";
 
-window.addEventListener("DOMContentLoaded", function(){
+window.addEventListener("DOMContentLoaded", (event) => {
 
                 document.getElementById('aboutHeynote').innerHTML = aboutHeynote;
                 document.getElementById('aboutElewhat').innerHTML = aboutElewhat;
