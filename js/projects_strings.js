@@ -16,10 +16,25 @@ var aboutElewhat = "&bull; Developed and designed Elewhat which is an Educationa
         +"<br>&bull; For the main feature of Elewhat I\’ve implemented a neural network model for classifying "
         +"electronic components on Printed Circuit Boards (PCBs)."
         +"<br>&bull; Developed other interactive features such as:" 
-        +"<br>&emsp;&compfn; Pre-installed circuits with interactive components."
-        +"<br>&emsp;&compfn; Simple simulations to show how electronics work."
-        +"<br>&emsp;&compfn; Multimeter simulator."
-        +"<br>&emsp;&compfn; Learning resources and quizzes.";
+        +"<br>&compfn; Pre-installed circuits with interactive components."
+        +"<br>&compfn; Simple simulations to show how electronics work."
+        +"<br>&compfn; Multimeter simulator."
+        +"<br>&compfn; Learning resources and quizzes.";
+
+var aboutToefl = "&bull; Developed and designed ToeflTren which is an Educational Android app that provides"
+        +"a full experience about the Toefl language test."
+        +"<br>&bull; Developed all the 4 sections of the test, with 3 options" 
+        +"<br>&compfn; Training: no time limit, read explainations of answers and tips on how to answer."
+        +"<br>&compfn; Trying: time limited test, for one of the 4 sections."
+        +"<br>&compfn; Full Toefl test: the 2 hours test, with results at the end, and feedback on speaking and writing."
+        +"<br>&bull; Created tips sections, for important things to keep in mind." 
+
+var aboutMirror = "&bull; Developed and designed Mirror app which is an Android tool app that mirrors"
+        +"camera feed to another phone(after authentication), on the same local network."
+        +"<br>&bull; Developed key features:" 
+        +"<br>&compfn; A secure web server to move camera feed from phone 1 to phone 2."
+        +"<br>&compfn; A QR code generator in phone 1, and receiver in phone 2, for Authentication."
+        +"<br>&compfn; Ability to take image in camera feed phone, from the receiver phone."
 
 var aboutHeyphones = "Heyphones is a useful android app that solves a problem many people face, "
         +"imagine when you are listening to music through your headphones and someone "
@@ -31,7 +46,7 @@ var aboutHeyphones = "Heyphones is a useful android app that solves a problem ma
 
 var aboutAndroidProjects = "&bull; An app for designing app mockups."
         +"<br>&bull; An app that stops music and warns you when someone is calling your name while listening through headphones."
-        +"<br>&bull; An app that helps you take the best picture of yourself by mirroring cameraman\’s feed to your phone\’s screen for you to quickly check your poses.";
+        +"<br>&bull; An app that provides a studying/researching experience on your phone.";
 
 var aboutPythonProjects = "&bull; A Trained neural network for classifying electronics for EleWhat app."
         +"<br>&bull; A piano teaching program that works using external camera pointed at your hands above a table, then tracks your hands using OpenCV, and plays the virtual piano shown with your hands on your computer\’s screen."
@@ -45,6 +60,9 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
                 document.getElementById('aboutHeynote').innerHTML = aboutHeynote;
                 document.getElementById('aboutElewhat').innerHTML = aboutElewhat;
+                document.getElementById('aboutToefl').innerHTML = aboutToefl;
+                document.getElementById('aboutMirror').innerHTML = aboutMirror;
+
                 document.getElementById('aboutAndroidProjects').innerHTML = aboutAndroidProjects;
                 document.getElementById('aboutPythonProjects').innerHTML = aboutPythonProjects;
                 document.getElementById('aboutDesignProjects').innerHTML = aboutDesignProjects
