@@ -21,7 +21,7 @@ var aboutElewhat = "&bull; Developed and designed Elewhat which is an Educationa
         +"<br>&compfn; Multimeter simulator."
         +"<br>&compfn; Learning resources and quizzes.";
 
-var aboutToefl = "&bull; Developed and designed ToeflTren which is an Educational Android app that provides"
+var aboutToefl = "&bull; Developed and designed ToeflTre which is an Educational Android app that provides"
         +"a full experience about the Toefl language test."
         +"<br>&bull; Developed all the 4 sections of the test, with 3 options" 
         +"<br>&compfn; Training: no time limit, read explainations of answers and tips on how to answer."
